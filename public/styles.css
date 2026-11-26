@@ -1,0 +1,197 @@
+:root {
+  color-scheme: light;
+  --paper: #f3ecdf;
+  --ink: #1c1612;
+  --rule: #d9cbb6;
+  --seal: #8f2d24;
+  --seal-ink: #fff8f2;
+  --muted: #5e5348;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Noto Sans Devanagari", "Kohinoor Devanagari", "Mukta", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.45;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+}
+
+header {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 1rem;
+}
+
+.eyebrow {
+  margin: 0;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0.2rem 0;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 750;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin: 0;
+}
+
+.promise {
+  margin: 0.4rem 0 0;
+  font-size: 1.15rem;
+}
+
+section {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.speak {
+  text-align: center;
+}
+
+#mic {
+  width: min(100%, 18rem);
+  min-height: 7.5rem;
+  margin: 1rem auto;
+  border: 0;
+  border-radius: 999px;
+  background: var(--seal);
+  color: var(--seal-ink);
+  font: inherit;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+#mic.live {
+  outline: 6px solid #e7b3a4;
+}
+
+#mic:disabled {
+  background: #8a8178;
+  cursor: not-allowed;
+}
+
+.heard {
+  min-height: 1.4em;
+  color: var(--muted);
+}
+
+.card {
+  text-align: left;
+  background: #fffaf3;
+  border: 2px solid var(--ink);
+  padding: 1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.card p {
+  margin: 0 0 0.8rem;
+  font-size: 1.45rem;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+input {
+  flex: 1;
+  font: inherit;
+  padding: 0.7rem 0.8rem;
+  border: 2px solid var(--ink);
+  background: #fff;
+  min-width: 0;
+}
+
+button {
+  font: inherit;
+  background: var(--ink);
+  color: var(--paper);
+  border: 2px solid var(--ink);
+  padding: 0.65rem 0.9rem;
+  cursor: pointer;
+}
+
+button.ghost {
+  background: transparent;
+  color: var(--ink);
+}
+
+button.danger {
+  color: var(--seal);
+  border-color: var(--seal);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.row.spread {
+  justify-content: space-between;
+}
+
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 0.8rem;
+}
+
+.examples button {
+  background: transparent;
+  color: var(--muted);
+  border-style: dashed;
+  font-size: 0.95rem;
+}
+
+#monthList {
+  list-style: none;
+  padding: 0;
+  margin: 0.8rem 0;
+}
+
+#monthList li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.75rem 0;
+  border-top: 1px dashed var(--rule);
+}
+
+#monthList .empty {
+  color: var(--muted);
+}
+
+.note,
+footer p {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+footer {
+  padding-top: 1rem;
+}

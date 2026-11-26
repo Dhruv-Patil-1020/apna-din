@@ -1,0 +1,214 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 420 >>
+stream
+BT
+/F1 12 Tf
+50 780 Td
+16 TL
+(Apna Din) Tj
+T* (Scaler x Wispr Flow  |  Build for Bharat  |  Round 2) Tj
+T* (Theme: Livelihoods and small business) Tj
+T* () Tj
+T* (A domestic worker speaks her day at home. The app repeats the) Tj
+T* (numbers. She confirms. The month stays on her phone.) Tj
+T* () Tj
+T* (The main task is speaking, not filling a wage form. There is no) Tj
+T* (login. The app starts with no API key.) Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Length 1861 >>
+stream
+BT
+/F1 12 Tf
+50 780 Td
+16 TL
+(1. Problem and solution) Tj
+T* () Tj
+T* (Who has the problem) Tj
+T* (A woman doing paid housework in Maharashtra, usually in more than) Tj
+T* (one home, paid in cash in the first week of the next month.) Tj
+T* () Tj
+T* (Youth for Unity and Voluntary Action, with the Maharashtra domestic) Tj
+T* (worker network MRGKSS, surveyed 5,019 workers in 15 districts in) Tj
+T* (February and March 2024.) Tj
+T* (- 99.6 percent were women.) Tj
+T* (- 1.0 percent had a written contract \(50 of 5,019\).) Tj
+T* (- 98.5 percent were paid in cash.) Tj
+T* (- 73.5 percent were paid in the first week of the next month.) Tj
+T* (- 27.3 percent said wages were cut for every holiday.) Tj
+T* (- 18.1 percent said the employer deducts for a broken household item.) Tj
+T* (Source: Situational Analysis of Domestic Workers in 15 Districts of) Tj
+T* (Maharashtra, YUVA, 2025. Tables 2.6, 2.38, 2.44, 2.45, 2.54, 2.55.) Tj
+T* () Tj
+T* (Section 50\(4\) of the Code on Wages, 2019 says a household employing) Tj
+T* (not more than five people for domestic work does not have to issue) Tj
+T* (a wage slip. The Code came into force on 21 November 2025.) Tj
+T* () Tj
+T* (What the survey does not show: how often her own count of days) Tj
+T* (differs from the cash in her hand. The case stories in that report) Tj
+T* (are about dismissal, which this app does not fix.) Tj
+T* () Tj
+T* (How the product answers the part it can) Tj
+T* (In the evening, in her own house, she says one sentence:) Tj
+T* (who the house was, whether she went, and any cut, advance, or cash.) Tj
+T* (Apna Din reads that back in Hindi. Nothing is stored until she) Tj
+T* (says it is right. The month card is days, cuts, advances, and cash) Tj
+T* (she confirmed. She can listen to it or copy the text.) Tj
+T* () Tj
+T* (It does not pay her, message the employer, or file a labour case.) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Length 1127 >>
+stream
+BT
+/F1 12 Tf
+50 780 Td
+16 TL
+(2. Who it is for) Tj
+T* () Tj
+T* (The person at the microphone is the worker, not the employer.) Tj
+T* (Employer apps already exist \(Helper, DailyPlus, Pratyek, Ooru\).) Tj
+T* (They need the employer to mark the day or sign. Apna Din is the) Tj
+T* (note she can make when the employer will not.) Tj
+T* () Tj
+T* (How many) Tj
+T* (The counted group we will actually use is small.) Tj
+T* (- 5,019 workers in the 2024 Maharashtra survey. That is a sample,) Tj
+T* (  recruited with unions, not a census.) Tj
+T* (- MRGKSS, the network that fielded the survey, has 32 member) Tj
+T* (  organisations. That is the realistic door.) Tj
+T* (- The survey does not say how many of them have their own phone.) Tj
+T* (  A shared family phone can expose her cash. That is an open risk.) Tj
+T* () Tj
+T* (First users: 10 women in one collective, in Pune or Mumbai, for) Tj
+T* (one month. Not a national market. We will not multiply 5,019 into) Tj
+T* (a crore of users.) Tj
+T* () Tj
+T* (A judge should treat 27.3 percent as a deduction policy in this) Tj
+T* (sample, not as proof that employers miscount days.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Length 1375 >>
+stream
+BT
+/F1 12 Tf
+50 780 Td
+16 TL
+(3. What it depends on) Tj
+T* () Tj
+T* (Voice in) Tj
+T* (The browser Speech Recognition API, language hi-IN, in Chrome or) Tj
+T* (Edge. We do not hold an OpenAI, Google, Sarvam, or Wispr key.) Tj
+T* (Chrome may send that audio to its own speech service. Our server) Tj
+T* (never receives the recording. If recognition is missing, or the) Tj
+T* (mic is blocked, she types the same sentence. The card still saves.) Tj
+T* () Tj
+T* (Voice out) Tj
+T* (The browser speechSynthesis voice, language hi-IN, speaks the) Tj
+T* (read-back and the month card. If that voice is unavailable, the) Tj
+T* (same words stay on screen.) Tj
+T* () Tj
+T* (The part that must not break) Tj
+T* (Numbers are read by our own code: do sau is 200, dedh sau is 150,) Tj
+T* (saade teen hazaar is 3,500, chhabbees din is 26 days. A cut is not) Tj
+T* (stored as pay. A month she states in one sentence is not counted) Tj
+T* (as a single day. Tests cover these cases. No model decides the) Tj
+T* (rupees.) Tj
+T* () Tj
+T* (If a speech service becomes paid or shuts) Tj
+T* (The typed sentence, the parser, the card, and the copy button keep) Tj
+T* (working. There is no bill to us, because there is no key.) Tj
+T* () Tj
+T* (Data) Tj
+T* (Confirmed lines stay in the browser on that phone. Docker only) Tj
+T* (serves the page. Restarting the container does not delete her card.) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Length 1213 >>
+stream
+BT
+/F1 12 Tf
+50 780 Td
+16 TL
+(4. Launch plan) Tj
+T* () Tj
+T* (We do not start on an app store.) Tj
+T* () Tj
+T* (Week 1. Sit with one organiser from a Pune or Mumbai member of) Tj
+T* (MRGKSS. Show the flow on one phone. Ask whether the sentence) Tj
+T* (matches how their members already talk.) Tj
+T* () Tj
+T* (Weeks 2 to 5. Ten women log the evenings they choose, for one) Tj
+T* (month, on their own phones. We do not watch the amounts. Success) Tj
+T* (is that each woman can replay her month without us in the room,) Tj
+T* (and can tell us whether the cash matched the card.) Tj
+T* () Tj
+T* (After that. Keep it only if those ten ask to continue. The next) Tj
+T* (step is Marathi read-back in the worker's own words, still on) Tj
+T* (device, still without an employer account.) Tj
+T* () Tj
+T* (What we will not do in the launch) Tj
+T* (- Tell her the record will win a case.) Tj
+T* (- Ask her to play it in the employer's kitchen.) Tj
+T* (- Add payments, UPI, or a helpline integration.) Tj
+T* () Tj
+T* (Build boundary for this round) Tj
+T* (Real: speech or typed sentence, read-back, confirm, month card,) Tj
+T* (listen, copy.) Tj
+T* (Not in this build: recovery of wages, legal filing, employer sign-off.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 12 0 R /MediaBox [0 0 612 792] /Contents 2 0 R /Resources << /Font << /F1 1 0 R >> >> >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 12 0 R /MediaBox [0 0 612 792] /Contents 3 0 R /Resources << /Font << /F1 1 0 R >> >> >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 12 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 1 0 R >> >> >>
+endobj
+10 0 obj
+<< /Type /Page /Parent 12 0 R /MediaBox [0 0 612 792] /Contents 5 0 R /Resources << /Font << /F1 1 0 R >> >> >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 12 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 1 0 R >> >> >>
+endobj
+12 0 obj
+<< /Type /Pages /Count 5 /Kids [7 0 R 8 0 R 9 0 R 10 0 R 11 0 R] >>
+endobj
+13 0 obj
+<< /Type /Catalog /Pages 12 0 R >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000550 00000 n 
+0000002463 00000 n 
+0000003642 00000 n 
+0000005069 00000 n 
+0000006334 00000 n 
+0000006461 00000 n 
+0000006588 00000 n 
+0000006715 00000 n 
+0000006843 00000 n 
+0000006971 00000 n 
+0000007055 00000 n 
+trailer << /Size 14 /Root 13 0 R >>
+startxref
+7106
+%%EOF

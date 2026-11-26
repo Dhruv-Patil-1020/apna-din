@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Apna Din</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">Livelihoods · ghar ka kaam</p>
+        <h1>Apna Din</h1>
+        <p class="promise">
+          Shaam ko, apne ghar mein, aaj ka din bolo. App raqam dohraega. Mahina aapke phone par rahega.
+        </p>
+      </header>
+
+      <section class="speak" aria-labelledby="speakTitle">
+        <h2 id="speakTitle">Aaj kya hua</h2>
+        <button id="mic" type="button" aria-pressed="false">
+          <span id="micLabel">Aaj ka din bolo</span>
+        </button>
+        <p id="speechNote" class="note" hidden>
+          Is browser mein mic nahi chala. Neeche wahi vakya likh dijiye.
+        </p>
+        <p id="heard" class="heard" aria-live="polite"></p>
+        <div id="card" class="card" hidden>
+          <p id="cardText"></p>
+          <div class="row">
+            <button id="yes" type="button">Haan, sahi hai</button>
+            <button id="no" type="button" class="ghost">Nahi, badlo</button>
+          </div>
+        </div>
+        <form id="backupForm">
+          <label for="backup">Mic na chale to yahan wahi vakya likho</label>
+          <div class="row">
+            <input id="backup" name="backup" autocomplete="off" placeholder="Sharma aunty ke yahan gayi" />
+            <button type="submit">Likho</button>
+          </div>
+        </form>
+        <div class="examples">
+          <button type="button" data-example="Sharma aunty ke yahan aaj gayi. Poora din kaam kiya.">
+            Misaal: gayi
+          </button>
+          <button type="button" data-example="Gupta madam ke ghar nahi gayi. Do sau rupaye kaat diya, glass tuta.">
+            Misaal: kate
+          </button>
+        </div>
+      </section>
+
+      <section aria-labelledby="monthHeading">
+        <div class="row spread">
+          <h2 id="monthHeading">Is mahine ka card</h2>
+          <p id="monthTitle"></p>
+        </div>
+        <ul id="monthList"></ul>
+        <div class="row">
+          <button id="listen" type="button" class="ghost">Card suno</button>
+          <button id="copy" type="button" class="ghost">Mahine ka hisaab copy karo</button>
+          <button id="clear" type="button" class="ghost danger">Is mahine ka hisaab hatao</button>
+        </div>
+      </section>
+
+      <footer>
+        <p>
+          Yeh aapka khud ka hisaab hai. Yeh court ka kagaz nahi. App paisa nahi bhejta, aur employer ko khud kuch nahi bhejta.
+          Jo aapne confirm kiya wahi is phone par save hota hai.
+        </p>
+      </footer>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
